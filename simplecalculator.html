@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simcal.css" type="text/css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <!--result box-->
+        <div class="result">
+            <span id="mem-area"></span>
+            <p id="result-box"></p>
+        </div>
+
+        <!--button box-->
+        <div class="buttons">
+            <div class="button util-btn" id="backspace">◀</div>
+            <div class="button util-btn" id="swap">+/-</div>
+            <div class="button util-btn" id="pow">pow</div>
+            <div class="button util-btn" id="sqr">sqr</div>
+            <div class="button action-btn" id="clear">C</div>
+            <div class="button action-btn" id="memBtn"> M</div>
+            <div class="button num-button action-btn percent">%</div>
+            <div class="button num-button calc-action-btn">/</div>
+            <div class="button num-button num-digit seven">7</div>
+            <div class="button num-button num-digit eight">8</div>
+            <div class="button num-button num-digit nine">9</div>
+            <div class="button num-button calc-action-btn">*</div>
+            <div class="button num-button num-digit four">4</div>
+            <div class="button num-button num-digit five">5</div>
+            <div class="button num-button num-digit six">6</div>
+            <div class="button num-button calc-action-btn">-</div>
+            <div class="button num-button num-digit one">1</div>
+            <div class="button num-button num-digit two">2</div>
+            <div class="button num-button num-digit three">3</div>
+            <div class="button num-button calc-action-btn">+</div>
+            <div class="button num-button num-digit zero">0</div>
+            <div class="button num-button point">.</div>
+            <div class="button calc-action-btn" id="total">=</div>
+        </div>
+    </div>
+
+    <script src="/calculator.js" type="text/javascript"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+</body>
+</html>
